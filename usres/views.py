@@ -189,7 +189,4 @@ class AcceptCourseView(
 accept_course_view = AcceptCourseView.as_view()
 
 
-# git 
-# mixin generic 
-# undrestand the code
-# fix the serializer
+

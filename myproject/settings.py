@@ -168,10 +168,13 @@ ACCOUNT_EMAIL_VERIFICATION = None
 #}
 
 REST_AUTH_SERIALIZERS = {
-    'USER_DETAILS_SERIALIZER': 'usres.CustomUser.serializers.CustomUserSerializer',
+    'USER_DETAILS_SERIALIZER': 'usres.serializers.CustomSerializer',
 }
 
 
 REST_AUTH_REGISTER_SERIALIZERS = {
-    'REGISTER_SERIALIZER': 'usres.serializers.CustomUserSerializer',
+    'REGISTER_SERIALIZER': 'usres.serializers.CustomSerializer',
 }
+
+
+
