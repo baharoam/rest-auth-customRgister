@@ -12,8 +12,8 @@ urlpatterns = [
     path('api-auth/', include('dj_rest_auth.registration.urls')),
     path('create-course/', v.create_course_mixin_view, name='create-course'),
     path('view-course/', v.view_course_mixin_view, name='view-course'),
-    path('attend-course/<int:pk>/', v.attend_course_view, name='attend-course'),
+    path('attend-course/', v.attend_course_view, name='attend-course'),
     path('view-request/', v.view_request, name='view-request'),
-    path('accept-request/<int:pk>', v.accept_course_view, name='accept-request'),
+    path('accept-request/', v.accept_course_view, name='accept-request'),
     
 ]

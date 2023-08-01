@@ -167,6 +167,7 @@ ACCOUNT_EMAIL_VERIFICATION = None
 #    'USER_DETAILS_SERIALIZER': 'usres.serializers.CustomUserSerializer',
 #}
 
+
 REST_AUTH_SERIALIZERS = {
     'USER_DETAILS_SERIALIZER': 'usres.serializers.CustomSerializer',
 }
